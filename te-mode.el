@@ -1,6 +1,6 @@
 (define-prefix-command 'te-mode-keymap)
 
-(define-key te-mode-keymap (kbd "v") 'te-file)
+(define-key te-mode-keymap (kbd "f") 'te-file)
 (define-key te-mode-keymap (kbd "l") 'te-line)
 (define-key te-mode-keymap (kbd "a") 'te-all)
 (define-key te-mode-keymap (kbd ",") 'te-last)
